@@ -1,10 +1,15 @@
 {
-  "name": "react-component-lib",
+  "name": "react-hou-test-lib",
   "version": "1.0.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
+  "author": {
+    "name": "Hou hou",
+    "email": "test-h@gmail.com"
+  },
+  "homepage": "www.google.com",
   "repository": {
-    "url": "https://github.com/michal-wrzosek/react-component-lib",
+    "url": "https://github.com/houssem-hichri/test-comp.git",
     "type": "git"
   },
   "license": "MIT",
@@ -28,11 +33,6 @@
     "ts-node": "^9.0.0",
     "tslib": "^2.0.3",
     "typescript": "^4.0.5"
-  },
-  "peerDependencies": {
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "styled-components": "^5.2.1"
   },
   "scripts": {
     "build": "rollup -c",
